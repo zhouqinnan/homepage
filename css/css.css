@@ -1,0 +1,101 @@
+body,li{
+    margin:0;padding:0;
+    list-style: none;
+}
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+.section2 p { position: relative; left: -120%;}
+.section3 p { position: relative; bottom: -120%;}
+.section4 p { display: none;}
+#menu { margin: 0; padding: 0; position: fixed; right: 10px; top: 10px; list-style-type: none; z-index: 70;}
+#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+#menu .active a { color: #fff; background-color: #333;}
+.section{
+    position: relative;
+}
+.section1 .title{
+    width:400px;height:150px;
+    position: absolute;
+    left:0;
+    top:100px;
+    right:0;
+    bottom:0;
+    margin: 0 auto;
+}
+.section1 .title .top-title{
+    width:100%;height:50%;
+    line-height: 75px;
+}
+#name{
+    color:#FFFFD5;
+}
+.title .top-second{
+    width:100%;height:50%;
+    line-height: 75px;
+    font-size: 24px;
+}
+.goPageBox{
+    width: 100%;height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom:0;
+}
+.goPage{
+    border-radius: 50%;
+    width: 30px;height: 30px;
+    background:url(../img/arrow_aad9b25.png);
+    animation:move 1s alternate infinite;
+    cursor:pointer;
+    z-index: 9999999;
+}
+.picture{
+    width:200px;height:200px;
+    border-radius: 50%;
+    background:#ccc;
+    position: absolute;
+    left:50%;margin-left: -100px;
+    top:300px;
+}
+.my-picture{
+    width:190px;
+    height:190px;
+    border-radius: 50%;
+    background-color: #e00;
+    position: absolute;
+    left:0;top:5px;bootom:0;right:0;margin:auto;
+}
+.jbzl{
+    width:200px;height:100px;
+    position: absolute;
+    top:100px;left:0;right:0;bottom:0;
+    margin:0 auto;
+}
+.jbzl-con{
+    width:100%;
+    height:400px;
+    position: absolute;
+    top:200px;left:0;right:0;bottom:0;
+    margin:0 auto;
+}
+.jbzl-con .li{
+    width:25%;height:100%;
+    float: left;
+    padding: 0 10px;
+}
+.jbzl-con .li .top{
+    width:100%;height:200px;
+    padding-top: 50px;
+}
+.jbzl-con .li .down{
+    width:100%;height:200px;
+}
+.jbzl-con .li .down .zz{
+    font-size:24px;
+}
+.jbzl-con .li .down .xx-con{
+    font-size: 18px;
+    display: block;
+    width:100%;height:100px
+}
+
+
